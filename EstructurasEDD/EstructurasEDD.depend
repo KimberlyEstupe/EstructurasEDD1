@@ -1,0 +1,126 @@
+# depslib dependency file v1.0
+1594417647 source:c:\users\kimberlyestupe\desktop\codeblock\estructurasedd\main.cpp
+	<iostream>
+	"LSimple.h"
+	"LDobleEnlasada.h"
+	"PListaSimple.h"
+	"MatizGS.h"
+	"ArbolAVL.h"
+	"Cubo.h"
+
+1591381310 source:c:\users\kimberlyestupe\desktop\codeblock\estructurasedd\src\lsimple.cpp
+	"LSimple.h"
+	<fstream>
+	<stdlib.h>
+	<string>
+	<cstring>
+	<stdio.h>
+	<iostream>
+	<clocale>
+	<sstream>
+
+1594352225 c:\users\kimberlyestupe\desktop\codeblock\estructurasedd\include\lsimple.h
+	<iostream>
+	<clocale>
+	<sstream>
+	<string>
+
+1594335092 source:c:\users\kimberlyestupe\desktop\codeblock\estructurasedd\src\ldobleenlasada.cpp
+	"LDobleEnlasada.h"
+	<fstream>
+	<stdlib.h>
+	<string>
+	<cstring>
+	<stdio.h>
+	<iostream>
+	<clocale>
+	<sstream>
+
+1594334433 c:\users\kimberlyestupe\desktop\codeblock\estructurasedd\include\ldobleenlasada.h
+	<iostream>
+	<clocale>
+	<sstream>
+	<string>
+
+1590190870 source:c:\users\kimberlyestupe\desktop\codeblock\estructurasedd\src\cola.cpp
+	"Cola.h"
+	<fstream>
+	<stdlib.h>
+	<string>
+	<cstring>
+	<stdio.h>
+	<iostream>
+	<clocale>
+	<sstream>
+
+1590190270 c:\users\kimberlyestupe\desktop\codeblock\estructurasedd\include\cola.h
+	<iostream>
+	<clocale>
+	<sstream>
+	<string>
+
+1590542704 source:c:\users\kimberlyestupe\desktop\codeblock\estructurasedd\src\plistasimple.cpp
+	"PListaSimple.h"
+	<fstream>
+	<stdlib.h>
+	<string>
+	<cstring>
+	<stdio.h>
+	<iostream>
+	<clocale>
+	<sstream>
+
+1590363820 c:\users\kimberlyestupe\desktop\codeblock\estructurasedd\include\plistasimple.h
+	<iostream>
+	<clocale>
+	<sstream>
+	<string>
+
+1590608806 source:c:\users\kimberlyestupe\desktop\codeblock\estructurasedd\src\matizgs.cpp
+	"MatizGS.h"
+	<fstream>
+	<stdlib.h>
+	<sstream>
+	<string>
+	<cstring>
+	<stdio.h>
+	<iostream>
+	<clocale>
+
+1590467572 c:\users\kimberlyestupe\desktop\codeblock\estructurasedd\include\matizgs.h
+	<iostream>
+	<sstream>
+	<string>
+
+1594353013 source:c:\users\kimberlyestupe\desktop\codeblock\estructurasedd\src\cubo.cpp
+	"Cubo.h"
+	<stdlib.h>
+	<fstream>
+	<iostream>
+	<clocale>
+	<sstream>
+
+1594334847 c:\users\kimberlyestupe\desktop\codeblock\estructurasedd\include\cubo.h
+	<iostream>
+	<sstream>
+	<string>
+
+1594418059 source:c:\users\kimberlyestupe\desktop\codeblock\estructurasedd\src\arbolavl.cpp
+	"ArbolAVL.h"
+	<stdlib.h>
+	<fstream>
+	<iostream>
+	<clocale>
+	<cstring>
+	<sstream>
+
+1594405952 c:\users\kimberlyestupe\desktop\codeblock\estructurasedd\include\arbolavl.h
+	<string>
+
+1594405829 source:c:\users\kimberlyestupe\desktop\codeblock\estructurasedd\src\arbinario.cpp
+	"ArBinario.h"
+
+1594354194 c:\users\kimberlyestupe\desktop\codeblock\estructurasedd\include\arbinario.h
+	<iostream>
+	<string>
+

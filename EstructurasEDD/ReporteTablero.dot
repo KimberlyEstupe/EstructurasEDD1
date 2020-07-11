@@ -1,0 +1,64 @@
+digraph G {
+  rankdir = Lista;
+  node [shape = rectangle  fontname="Arial"]
+  graph [nodesep = 0.5]
+label = < <font color='#008B8B' point-size='20' fontname="Century Gothic"> M A T R I Z </font>>;
+labelloc = "t";
+ 
+ 
+  {rank=same 
+     NodoX0  [label= "0" , group=0]
+     NodoX0 ->  NodoX2 [dir=both]
+     NodoX2  [label= "2" , group=2]
+     NodoX2 ->  NodoX8 [dir=both]
+     NodoX8  [label= "8" , group=8]
+     NodoX8 ->  NodoX14 [dir=both]
+     NodoX14  [label= "14" , group=14]
+     NodoX14 ->  NodoX33 [dir=both]
+     NodoX33  [label= "33" , group=33]
+  }
+ 
+   NodoX0 ->  NodoY3 [dir=both]
+   NodoY3  [label= "3" , group=0]
+   NodoY3 ->  NodoY9 [dir=both]
+   NodoY9  [label= "9" , group= 0]
+   NodoY9 ->  NodoY15 [dir=both]
+   NodoY15  [label= "15" , group= 0]
+   NodoY15 ->  NodoY18 [dir=both]
+   NodoY18  [label= "18" , group= 0]
+   NodoY18 ->  NodoY22 [dir=both]
+   NodoY22  [label= "22" , group= 0]
+
+  {rank=same 
+     NodoY3 ->  Nodo83 [dir=both]
+     Nodo83  [label= "Sharon" , group=8]
+     Nodo83 ->  Nodo143 [dir=both]
+     Nodo143  [label= "Gaby" , group=14]
+  }
+  {rank=same 
+     NodoY9 ->  Nodo29 [dir=both]
+     Nodo29  [label= "Maria" , group=2]
+     Nodo29 ->  Nodo89 [dir=both]
+     Nodo89  [label= "Karla" , group=8]
+  }
+  {rank=same 
+     NodoY15 ->  Nodo215 [dir=both]
+     Nodo215  [label= "Sofia" , group=2]
+  }
+  {rank=same 
+     NodoY18 ->  Nodo3318 [dir=both]
+     Nodo3318  [label= "Natali" , group=33]
+  }
+  {rank=same 
+     NodoY22 ->  Nodo3322 [dir=both]
+     Nodo3322  [label= "Carlos" , group=33]
+  }
+ 
+   NodoX2 ->  Nodo29 [dir=both]
+   Nodo29 ->  Nodo215 [dir=both]
+   NodoX8 ->  Nodo83 [dir=both]
+   Nodo83 ->  Nodo89 [dir=both]
+   NodoX14 ->  Nodo143 [dir=both]
+   NodoX33 ->  Nodo3318 [dir=both]
+   Nodo3318 ->  Nodo3322 [dir=both]
+}

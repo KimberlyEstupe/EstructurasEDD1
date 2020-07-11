@@ -1,0 +1,70 @@
+digraph G {
+rankdir = Lista;
+node [shape = ellipse fontname="Arial" fontsize="10"]
+graph [nodesep = 0.5]
+label = < <font color='blue'> <font point-size='20'> Arbol </font></font>>;
+labelloc = "t";
+ N15 -> N10;
+ N15 -> M15[color=white]; 
+ N15 -> D15[color=white]; 
+ N20 -> N15;
+ N20 -> M20[color=white]; 
+ N20 -> N38;
+ N38 -> N27;
+ N38 -> M38[color=white]; 
+ N38 -> N44;
+ N44 -> I44[color=white]; 
+ N44 -> M44[color=white]; 
+ N44 -> N5;
+ N50 -> N20;
+ N50 -> M50[color=white]; 
+ N50 -> N80;
+ N53 -> N52;
+ N53 -> M53[color=white]; 
+ N53 -> N58;
+ N60 -> N53;
+ N60 -> M60[color=white]; 
+ N60 -> N68;
+ N68 -> I68[color=white]; 
+ N68 -> M68[color=white]; 
+ N68 -> N8;
+ N80 -> N60;
+ N80 -> M80[color=white]; 
+ N80 -> N90;
+ N90 -> N83;
+ N90 -> M90[color=white]; 
+ N90 -> N96;
+
+ N10 [label=" ID: 10 \nNombre: amelia \nDescripcion: amelia \nFE: 0", color=green3, fontcolor=green3]; 
+ N15 [label=" ID: 15 \nNombre: amelia \nDescripcion: amelia \nFE: 0", color=green3, fontcolor=green3]; 
+ M15 [label=" Invis", color=white, bgcolor=white, fontcolor=white]; 
+ D15 [label=" Invis", color=white, bgcolor=white, fontcolor=white]; 
+ N20 [label=" ID: 20 \nNombre: sharon \nDescripcion: sharon \nFE: 1", color=green3, fontcolor=green3]; 
+ M20 [label=" Invis", color=white, bgcolor=white, fontcolor=white]; 
+ N27 [label=" ID: 27 \nNombre: amelia \nDescripcion: amelia \nFE: 0", color=green3, fontcolor=green3]; 
+ N38 [label=" ID: 38 \nNombre: amelia \nDescripcion: amelia \nFE: 1", color=green3, fontcolor=green3]; 
+ M38 [label=" Invis", color=white, bgcolor=white, fontcolor=white]; 
+ N44 [label=" ID: 44 \nNombre: amelia \nDescripcion: amelia \nFE: 1", color=green3, fontcolor=green3]; 
+ I44 [label=" Invis", color=white, bgcolor=white, fontcolor=white]; 
+ M44 [label=" Invis", color=white, bgcolor=white, fontcolor=white]; 
+ N5 [label=" ID: 5 \nNombre: amelia \nDescripcion: amelia \nFE: 0", color=green3, fontcolor=green3]; 
+ N50 [label=" ID: 50 \nNombre: Maria \nDescripcion: MAR \nFE: 0", color=green3, fontcolor=green3]; 
+ M50 [label=" Invis", color=white, bgcolor=white, fontcolor=white]; 
+ N52 [label=" ID: 52 \nNombre: amelia \nDescripcion: amelia \nFE: 0", color=green3, fontcolor=green3]; 
+ N53 [label=" ID: 53 \nNombre: amelia \nDescripcion: amelia \nFE: 0", color=green3, fontcolor=green3]; 
+ M53 [label=" Invis", color=white, bgcolor=white, fontcolor=white]; 
+ N58 [label=" ID: 58 \nNombre: amelia \nDescripcion: amelia \nFE: 0", color=green3, fontcolor=green3]; 
+ N60 [label=" ID: 60 \nNombre: amelia \nDescripcion: amelia \nFE: 0", color=green3, fontcolor=green3]; 
+ M60 [label=" Invis", color=white, bgcolor=white, fontcolor=white]; 
+ N68 [label=" ID: 68 \nNombre: amelia \nDescripcion: amelia \nFE: 1", color=green3, fontcolor=green3]; 
+ I68 [label=" Invis", color=white, bgcolor=white, fontcolor=white]; 
+ M68 [label=" Invis", color=white, bgcolor=white, fontcolor=white]; 
+ N8 [label=" ID: 8 \nNombre: amelia \nDescripcion: amelia \nFE: 0", color=green3, fontcolor=green3]; 
+ N80 [label=" ID: 80 \nNombre: pedro \nDescripcion: pedro \nFE: -1", color=green3, fontcolor=green3]; 
+ M80 [label=" Invis", color=white, bgcolor=white, fontcolor=white]; 
+ N83 [label=" ID: 83 \nNombre: amelia \nDescripcion: amelia \nFE: 0", color=green3, fontcolor=green3]; 
+ N90 [label=" ID: 90 \nNombre: amelia \nDescripcion: amelia \nFE: 0", color=green3, fontcolor=green3]; 
+ M90 [label=" Invis", color=white, bgcolor=white, fontcolor=white]; 
+ N96 [label=" ID: 96 \nNombre: amelia \nDescripcion: amelia \nFE: 0", color=green3, fontcolor=green3]; 
+
+}

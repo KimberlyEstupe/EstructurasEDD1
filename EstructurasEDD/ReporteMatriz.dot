@@ -1,0 +1,44 @@
+digraph G {
+  rankdir = Lista;
+  node [shape = rectangle  fontname="Arial"]
+  graph [nodesep = 0.5]
+label = < <font color='#008B8B' point-size='20' fontname="Century Gothic"> R E P O R T E   D E   E M P L E A D O S </font>>;
+labelloc = "t";
+ 
+ 
+  {rank=same 
+     NodoX0  [label= "Kimberly E,Administrador" , group=0]
+     NodoX0 ->  NodoX1[dir=both]
+     NodoX1  [label= "Guatemala" , group=1]
+     NodoX1 ->  NodoX2[dir=both]
+     NodoX2  [label= "Mixco" , group=2]
+  }
+ 
+   NodoX0 ->  NodoY1[dir=both]
+   NodoY1  [label= "Cassio" , group=0]
+   NodoY1 ->  NodoY2[dir=both]
+   NodoY2  [label= "Hiper" , group= 0]
+   NodoY2 ->  NodoY3[dir=both]
+   NodoY3  [label= "Cinemax" , group= 0]
+
+  {rank=same 
+     NodoY1 ->  Nodo11 [color=blue3][dir=both]
+     Nodo11  [label= "* Maria(Maria,contraseña) 
+* Jose(Jose,contraseña)" , group=1]
+  }
+  {rank=same 
+     NodoY2 ->  Nodo12 [color=blue3][dir=both]
+     Nodo12  [label= "* Marisol(Marisol,contraseña)" , group=1]
+     Nodo12 ->  Nodo22 [color=blue3][dir=both]
+     Nodo22  [label= "* Karla(Karla,contraseña)" , group=2]
+  }
+  {rank=same 
+     NodoY3 ->  Nodo23 [color=blue3][dir=both]
+     Nodo23  [label= "* Sharon(Sharon,contraseña)" , group=2]
+  }
+ 
+   NodoX1 ->  Nodo11 [color=darkslategrey][dir=both]
+   Nodo11 ->  Nodo12 [color=darkslategrey][dir=both]
+   NodoX2 ->  Nodo22 [color=darkslategrey][dir=both]
+   Nodo22 ->  Nodo23 [color=darkslategrey][dir=both]
+}

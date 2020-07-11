@@ -1,0 +1,16 @@
+digraph G {
+rankdir = LR;
+node [shape = rectangle fontname="Arial" fontsize="10"]
+graph [nodesep = 0.5]
+label = < <font color='blue'> <font point-size='20'> DOBLEMENTE   ENLAZADA </font></font>>;
+labelloc = "t";
+ 
+ 
+Nodo0  [label= "Julian , 22" ]
+Nodo0 ->  Nodo1 [dir=both, color=DARKVIOLET]
+Nodo1  [label= "Gabriel , 88" ]
+Nodo1 ->  Nodo2 [dir=both, color=DARKVIOLET]
+Nodo2  [label= "Romeo , 35" ]
+Nodo2 ->  Nodo3 [dir=both, color=DARKVIOLET]
+Nodo3  [label= "Dorian , 67" ]
+Nodo3 ->  Nodo4 [dir=both, color=DARKVIOLET]

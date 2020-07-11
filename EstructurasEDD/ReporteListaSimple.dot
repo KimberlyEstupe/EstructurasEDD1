@@ -1,0 +1,16 @@
+digraph G {
+rankdir = LR;
+node [shape = rectangle fontname="Arial" fontsize="10"]
+graph [nodesep = 0.5]
+label = < <font color='blue'> <font point-size='20'> S I M P L E </font></font>>;
+labelloc = "t";
+ 
+ 
+Nodo0  [label= " , 22" ]
+Nodo0 ->  Nodo1
+Nodo1  [label= " , 35" ]
+Nodo1 ->  Nodo2
+Nodo2  [label= " , 67" ]
+Nodo2 ->  Nodo3
+Nodo3  [label= " , 88" ]
+ }
