@@ -37,18 +37,22 @@
 		<Unit filename="include/ArBinario.h" />
 		<Unit filename="include/ArbolAVL.h" />
 		<Unit filename="include/Cubo.h" />
+		<Unit filename="include/JSON.h" />
 		<Unit filename="include/LDobleEnlasada.h" />
 		<Unit filename="include/LSimple.h" />
 		<Unit filename="include/MatizGS.h" />
 		<Unit filename="include/PListaSimple.h" />
+		<Unit filename="include/TECCLADO.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/ArBinario.cpp" />
 		<Unit filename="src/ArbolAVL.cpp" />
 		<Unit filename="src/Cubo.cpp" />
+		<Unit filename="src/JSON.cpp" />
 		<Unit filename="src/LDobleEnlasada.cpp" />
 		<Unit filename="src/LSimple.cpp" />
 		<Unit filename="src/MatizGS.cpp" />
 		<Unit filename="src/PListaSimple.cpp" />
+		<Unit filename="src/TECCLADO.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
